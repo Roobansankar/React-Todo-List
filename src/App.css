@@ -1,0 +1,38 @@
+*{
+  background-color: fuchsia;
+}
+
+.app {
+   padding: 30px;
+}
+
+.todos{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.todo_button{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+    background-color: white;
+
+}
+
+
+.todo span{
+  background-color: white;
+}
